@@ -1,5 +1,6 @@
 # mips32r2 gdbserver version 16.2
-`gdbserver` - MIPS 32 bits, big endian, mips32r2 arch, statically linked with musl, to run on the target
-
-`gdb` - x86-64 arch, statically linked with musl, to run on the host (this one is not really required, though)
+- `gdbserver` - MIPS 32 bits, big endian, mips32r2 arch, statically linked with musl, to run on the target
+- `gdb` - x86-64 arch, statically linked with musl, to run on the host (this one is not really required, though)
+- `socat` - MIPS 32 bits, big endian, mips32r2 arch, statically linked with musl, to run on the target
+- `busybox` - MIPS 32 bits, big endian, mips32r2 arch, statically linked with musl, to run on the target
 
