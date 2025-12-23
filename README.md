@@ -1,4 +1,7 @@
 # mips32r2 statically compiled tools 
+
+The tools below were compiled without floating pointer support in hardware (legacy devices).
+
 - `gdbserver` - MIPS 32 bits, big endian, mips32r2 arch, statically linked with musl, version 16.2, to run on the target
 - `gdb` - x86-64 arch, statically linked with musl, to run on the host (this one is not really required, though)
 - `socat` - MIPS 32 bits, big endian, mips32r2 arch, statically linked with musl, version 1.8.0.3, to run on the target
